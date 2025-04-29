@@ -26,9 +26,9 @@ figure6_lime_importance.png: LIME feature importance.
 Repository Structure:
 /codes/ python scripts and codes 
 /datas/ data files 
+/figures/ all the figures and flow charts 
 /lime analysis report html/ LIME Analysis Report of 10 Individual Instance Explanations
 /lime_explanation.jpg/
-/figures/ all the figures and flow charts 
 requirements.txt: Python dependencies.
 README.md: This file.
 
