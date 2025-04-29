@@ -2,9 +2,10 @@ Stacking Ensemble Classifier for Multi-Modal Breast Cancer Diagnosis
 This repository contains code, data, and supplementary materials for the manuscript "A Stacking Ensemble Classifier for Breast Cancer Detection Using Multi-Modal Data" submitted to the Journal of Biomedical Informatics (2025). The study integrates Fine Needle Aspiration (FNA) data from the Wisconsin Breast Cancer Dataset (WBCD) and mammography data from CBIS-DDSM to develop a stacking ensemble classifier with high recall (0.944) and interpretability.
 
 Model Training and Evaluation Pipeline
-The flowchart below illustrates the final model training and evaluation pipeline, using a classification threshold of 0.3, as described in the manuscript’s supplementary materials (Supplementary Figure 8).
+The flowchart below illustrates the final model training and evaluation pipeline, using a classification threshold of 0.3, as described in the manuscript’s supplementary materials (Flowchart of Final Model Training and Evaluation Pipeline).
 
-Pipeline Overview
+Pipeline Overview[Flowchart of Final Model Training and Evaluation Pipeline.pdf](https://github.com/user-attachments/files/19967472/Flowchart.of.Final.Model.Training.and.Evaluation.Pipeline.pdf)
+
 Input: Merged WBCD and CBIS-DDSM dataset (3549 samples, six shared features: radius_mean, texture_mean, perimeter_mean, smoothness_mean, compactness_mean, symmetry_mean).
 Process:
 Preprocess and align features from WBCD and CBIS-DDSM datasets (e.g., Gaussian blur, VGG16, PCA, GLCM, Canny edge detection).
