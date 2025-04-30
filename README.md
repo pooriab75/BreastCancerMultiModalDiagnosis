@@ -24,10 +24,10 @@ figure5_roc_curve.png:Merged dataset 10 folds ROC curve.
 figure6_lime_importance.png: LIME feature importance.
 
 Repository Structure:
-/codes/ python scripts and codes 
-/datas/ data files 
-/figures/ all the figures and flow charts 
-/lime analysis report html/ LIME Analysis Report of 10 Individual Instance Explanations
+/codes: python scripts 
+/datas: data files 
+/figures: all the figures and flow charts 
+/lime analysis report html: LIME Analysis Report of 10 Individual Instance Explanations
 /lime_explanation.jpg/
 requirements.txt: Python dependencies.
 README.md: This file.
